@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Symbol</h1>
+<script>
+let sym1 = Symbol("id");
+let user = {
+  [sym1]: 123,
+  name: "Fitz"
+};
+
+console.log(user.name);
+console.log(user[sym1]);
+</script>
+</body>
+</html>
